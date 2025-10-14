@@ -234,7 +234,7 @@ const ProjectStats = ({ repoUrl }: { repoUrl: string | null }) => {
   const accentColor = '#5fb564';
 
   return (
-    <div className="flex-shrink-0 flex flex-col items-end text-right w-[110px]">
+    <div className="flex-shrink-0 flex flex-col w-full md:w-[110px] items-start text-left md:items-end md:text-right mt-4 md:mt-0">
       <p className="text-xs text-slate-300">
         Activity: <span className="font-bold text-white">{loading ? '...' : `${total.toLocaleString()} Commits`}</span>
       </p>
@@ -263,12 +263,12 @@ const ProjectCard = ({ project, cardType }: { project: ProjectData, cardType: 'p
   return (
     <motion.div
       variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
-      className={`bg-slate-800/40 border ${featuredClass} rounded-2xl p-5 flex items-start gap-5 transition-all duration-300 hover:border-green-400/60`}
+      // The card stacks vertically on mobile (`flex-col`) and becomes horizontal on medium screens (`md:flex-row`).
+      className={`bg-slate-800/40 border ${featuredClass} rounded-2xl p-5 flex flex-col md:flex-row items-start gap-5 transition-all duration-300 hover:border-green-400/60`}
     >
       <img src={project.logoUrl} alt={`${project.title} logo`} className="w-12 h-12 rounded-lg flex-shrink-0 mt-1" />
-      <div className="flex-grow flex justify-between items-start gap-4">
         
-
+      <div className="flex-grow flex flex-col md:flex-row justify-between items-start gap-4 w-full">
         <div className="flex flex-col gap-1.5 w-full">
           <h4 className="font-semibold text-white text-base">{project.title}</h4>
           <p className="text-xs text-slate-400 -mt-1">{project.updated}</p>
