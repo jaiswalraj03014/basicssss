@@ -451,7 +451,7 @@ const SkillsGrid = ({ skills }: { skills: { name: string; category: string; logo
                 >
                   {skill.level === 'Beginner' && (
                     <div className="absolute -top-2 -left-2 w-5 h-5 bg-orange-500 rounded-full flex items-center justify-center border-2 border-slate-800">
-                      {/* CORRECTED: Changed back to `font-logo` to use spacex.ttf */}
+                      {/* CORRECTED: Changed back to `font-logo` to use SpaceX.ttf */}
                       <span className="font-logo text-[10px] font-bold text-white">
                         B
                       </span>
@@ -1182,7 +1182,7 @@ const handleContactSubmit = async (e: React.FormEvent) => {
         /* ... (all your existing styles remain the same) ... */
         @font-face {
           font-family: 'SpaceX';
-          src: url('/fonts/spacex.ttf') format('truetype');
+          src: url('/fonts/SpaceX.ttf') format('truetype');
           font-weight: normal;
           font-style: normal;
         }
