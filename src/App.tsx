@@ -66,7 +66,7 @@ const featuredProjectsData = [
     logoUrl: '/assets/senova_img.png',
     title: 'Senova AI',
     updated: 'MVP released',
-    description: 'AI-driven platform tackling cognitive debt with empathetic, adaptive, and research-based guidance',
+    description: 'SpaceX.ttf',
     tags: ['LANGCHAIN', 'PYTHON', 'FASTAPI', 'NODEJS', 'EXTENSION', "CHROME", "LLM", "GEMINI", "OPENAI"],
     repoUrl: 'https://github.com/MindMentors-AI/senova_mock',
     liveUrl: 'https://senova.in' 
@@ -475,7 +475,7 @@ const currentProjectsData = [
   {
     image: '/assets/senova_img.png',
     title: 'Senova AI',
-    description: 'AI-powered cognitive wellness platform addressing cognitive debt through empathetic guidance, adaptive learning, and evidence-based research with Harvard researchers and psychologists.',
+    description: 'AI-driven platform tackling cognitive debt with empathetic, adaptive, and research-based guidance',
     techStack: [
       { name: 'GPT-4', logo: 'https://cdn.simpleicons.org/openai/ffffff' },
       { name: 'Gemini', logo: 'https://cdn.simpleicons.org/googlegemini/ffffff' },
