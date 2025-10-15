@@ -66,7 +66,7 @@ const featuredProjectsData = [
     logoUrl: '/assets/senova_img.png',
     title: 'Senova AI',
     updated: 'MVP released',
-    description: 'AI-powered cognitive wellness platform addressing cognitive debt through empathetic guidance, adaptive learning, and evidence-based research with Harvard researchers and psychologists.',
+    description: 'AI-driven platform tackling cognitive debt with empathetic, adaptive, and research-based guidance',
     tags: ['LANGCHAIN', 'PYTHON', 'FASTAPI', 'NODEJS', 'EXTENSION', "CHROME", "LLM", "GEMINI", "OPENAI"],
     repoUrl: 'https://github.com/MindMentors-AI/senova_mock',
     liveUrl: 'https://senova.in' 
