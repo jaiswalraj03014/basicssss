@@ -12,6 +12,7 @@ import {
   Send, 
   TwitchIcon, 
   Wallet, 
+  Youtube,
   X 
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -40,6 +41,7 @@ type ProjectData = {
   liveUrl?: string | null;
   resourceUrl?: string | null; 
   featured?: boolean;
+  youtubeUrl?: string | null;
 };
 
 // For the featured projects
@@ -52,6 +54,7 @@ const featuredProjectsData = [
     tags: ['AI', 'MCP', 'ETHEREUM', 'SOLIDITY', 'PYTHON', 'CHAINLINK'],
     repoUrl: 'https://github.com/trigslink/backend',
     liveUrl: 'https://trigs.link', 
+    youtubeUrl: 'https://youtu.be/x_i38WNCgj8?si=8ufNl8DBad4pcKPN',
   },
   {
     logoUrl: '/assets/fingen.png',
@@ -66,11 +69,11 @@ const featuredProjectsData = [
     logoUrl: '/assets/senova_img.png',
     title: 'Senova AI',
     updated: 'MVP released',
-    description: 'SpaceX.ttf',
+    description: 'Cognitive wellness platform combating “cognitive debt” from AI overuse through empathetic guidance, crisis support, and interactive wellness tools powered by Google Gemini, browser extensions, and gamified learning.',
     tags: ['LANGCHAIN', 'PYTHON', 'FASTAPI', 'NODEJS', 'EXTENSION', "CHROME", "LLM", "GEMINI", "OPENAI"],
     repoUrl: 'https://github.com/MindMentors-AI/senova_mock',
-    liveUrl: 'https://senova.in' 
-  },
+    liveUrl: 'https://senova.in', 
+    youtubeUrl: null,}
 ];
 
 
@@ -280,6 +283,11 @@ const ProjectCard = ({ project, cardType }: { project: ProjectData, cardType: 'p
           </div>
           
           <div className="flex items-center gap-2 mt-4">
+            {project.youtubeUrl && (
+              <a href={project.youtubeUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1 text-xs font-medium text-orange-400 bg-orange-500/10 border border-red-500/20 rounded-full hover:bg-red-500/20 transition-colors">
+                <Youtube className="w-3.5 h-3.5" /> YouTube
+              </a>
+            )}
             {project.liveUrl && (
               <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1 text-xs font-medium text-green-300 bg-green-500/10 border border-green-500/20 rounded-full hover:bg-green-500/20 transition-colors">
                 <Globe className="w-3.5 h-3.5" /> Live
@@ -538,7 +546,7 @@ const CurrentProjects = () => {
             <div className="flex flex-col gap-2">
               <div>
                 <h4 className="font-semibold text-sm text-white">{project.title}</h4>
-                <p className="text-xs text-slate-400 mt-0.5">{project.description}</p>
+                <p className="text-xs text-slate-400 mt-0.5 h-8 overflow-hidden line-clamp-2">{project.description}</p>
               </div>
 
               <div className="flex items-center flex-wrap gap-2">
