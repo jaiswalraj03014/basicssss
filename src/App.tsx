@@ -508,7 +508,7 @@ const currentProjectsData = [
   {
     image: '/assets/senti.jpg',
     title: 'Senti',
-    description: 'Thresh is an autonomous protocol designed to safely optimize idle on-chain treasuries for DAOs and users.',
+    description: 'Senti is a smart financial OS that unifies crypto and AI to make money simple, seamless, and intelligent for everyday people.',
     techStack: [
       { name: 'Ethereum', logo: 'https://cdn.simpleicons.org/ethereum/000000' },
       { name: 'Solidity', logo: 'https://cdn.simpleicons.org/solidity/ffffff' },
