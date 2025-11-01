@@ -505,6 +505,20 @@ const currentProjectsData = [
     ],
     
   },
+  {
+    image: '/assets/senti.jpg',
+    title: 'Senti',
+    description: 'Thresh is an autonomous protocol designed to safely optimize idle on-chain treasuries for DAOs and users.',
+    techStack: [
+      { name: 'Ethereum', logo: 'https://cdn.simpleicons.org/ethereum/000000' },
+      { name: 'Solidity', logo: 'https://cdn.simpleicons.org/solidity/ffffff' },
+      { name: 'Python', logo: 'https://cdn.simpleicons.org/python/ffffff' },
+      { name: 'Typescript', logo: 'https://cdn.simpleicons.org/typescript/ffffff' },
+      { name: 'Node.js', logo: 'https://cdn.simpleicons.org/nodejs/ffffff' },
+      { name: 'FastAPI', logo: 'https://cdn.simpleicons.org/fastapi/ffffff' },
+    ],
+    liveUrl: 'https://Senti.in',
+  },
 ];
 
 const CurrentProjects = () => {
