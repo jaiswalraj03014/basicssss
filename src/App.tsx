@@ -54,7 +54,6 @@ const featuredProjectsData = [
     tags: ['AI', 'MCP', 'ETHEREUM', 'SOLIDITY', 'PYTHON', 'CHAINLINK'],
     repoUrl: 'https://github.com/trigslink/backend',
     liveUrl: 'https://trigs.link', 
-    youtubeUrl: 'https://youtu.be/x_i38WNCgj8?si=8ufNl8DBad4pcKPN',
   },
   {
     logoUrl: '/assets/fingen.png',
