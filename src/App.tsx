@@ -9,11 +9,8 @@ import {
   Linkedin, 
   Mail, 
   MessageCircle, 
-  Send, 
-  TwitchIcon, 
   Wallet, 
-  Youtube,
-  X 
+  Youtube
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import emailjs from '@emailjs/browser';
