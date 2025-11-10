@@ -709,7 +709,7 @@ const handleContactSubmit = async (e: React.FormEvent) => {
     { name: 'Autogen', category: 'Agentic fw', logo: 'https://raw.githubusercontent.com/AkashRajpurohit/brand-logos/main/white/microsoft-white.svg' },
     { name: 'Ollama', category: 'Agentic fw', logo: 'https://cdn.simpleicons.org/ollama/ffffff' },
     { name: 'OpenCV', category: 'Img Classifiers', logo: 'https://cdn.simpleicons.org/opencv/ffffff' },
-    { name: 'ViT', category: 'Img Classifiers', logo: 'https://cdn.simpleicons.org/google/ffffff' },
+    { name: 'ViT', category: 'Img Classifiers', logo: 'https://cdn.simpleicons.org/google/ffffff', level: 'Beginner' },
     { name: 'SAM2', category: 'Img Classifiers', logo: 'https://cdn.simpleicons.org/meta/ffffff', level: 'Beginner' },
     { name: 'YOLOv2', category: 'Img Classifiers', logo: 'https://cdn.simpleicons.org/yolo/ffffff', level: 'Beginner' },
     { name: 'Git', category: 'DevOps', logo: 'https://cdn.simpleicons.org/git/ffffff' },
