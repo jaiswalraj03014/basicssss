@@ -1020,7 +1020,7 @@ const handleContactSubmit = async (e: React.FormEvent) => {
                 >
                   <img
                     src="/assets/port_img.jpeg"
-                    alt="Aakash Jaiswal profile picture maximized"
+                    alt="Aakash Jaiswal maximized"
                     className="max-w-[80vw] max-h-[80vh] rounded-2xl shadow-2xl border-4 border-white/20"
                   />
                 </motion.div>
@@ -1049,7 +1049,7 @@ const handleContactSubmit = async (e: React.FormEvent) => {
               </div>
               <div className="flex gap-3">
                 {[
-                  { icon: <img src = 'assets/x_logo.png' className="w-5 h-5" />, href: 'https://x.com/Aakash_jais03' },
+                  { icon: <img src = 'assets/x_logo.png' alt="X logo" className="w-5 h-5" />, href: 'https://x.com/Aakash_jais03' },
                   { icon: <Github className="w-5 h-5" />, href: 'https://github.com/jaiswalraj03014' },
                   { icon: <Linkedin className="w-5 h-5" />, href: 'https://www.linkedin.com/in/aakash-jaiswal-773bb9244' }, 
                   { icon: <Mail className="w-5 h-5" />, href: 'mailto:jaiswalraj03014@gmail.com' }, 
@@ -1087,7 +1087,7 @@ const handleContactSubmit = async (e: React.FormEvent) => {
                     >
                       <img
                         src="/assets/port_img.jpeg"
-                        alt="Aakash Jaiswal profile picture"
+                        alt="Aakash Jaiswal"
                         className="w-full h-full rounded-lg object-cover border-2 border-white/40 transition-transform duration-300 group-hover:scale-105"
                       />
                       <div className="absolute inset-0 bg-black/50 flex items-center justify-center rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
