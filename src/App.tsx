@@ -12,7 +12,8 @@ import {
   Send, 
   TwitchIcon, 
   Wallet, 
-  X
+  Youtube,
+  X 
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import emailjs from '@emailjs/browser';
