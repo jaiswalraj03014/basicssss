@@ -868,7 +868,7 @@ const handleContactSubmit = async (e: React.FormEvent) => {
     setSelectedOption(optionId);
     await sleep(400);
 
-    if (optionId == 'skills'){
+    if (optionId === 'skills'){
       await typeMessage ('$ pip install - requirements.txt\n\nFetching technical skills..');
       await sleep(2000);
       const botResponses = responses[optionId];
