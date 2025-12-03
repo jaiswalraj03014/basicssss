@@ -50,7 +50,7 @@ const featuredProjectsData = [
     description: 'Trigslink is a decentralized MCP network enabling AI agents to access onchain context without central control—no APIs, no lock-ins. Powered by $AVAX & Chainlink, it’s the onchain discovery and access layer for AI context.',
     tags: ['AI', 'MCP', 'ETHEREUM', 'SOLIDITY', 'PYTHON', 'CHAINLINK'],
     repoUrl: 'https://github.com/trigslink/backend',
-    liveUrl: 'https://trigs.link'
+    liveUrl: 'https://www.trigs.link'
   },
   {
     logoUrl: '/assets/fingen.png',
