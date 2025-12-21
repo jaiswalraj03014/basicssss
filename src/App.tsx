@@ -491,14 +491,16 @@ const currentProjectsData = [
     repoUrl: 'https://github.com/MindMentors-AI/Senova-AI'
   },
   {
-    image: '/assets/thresh_img.png',
+    image: '/assets/Thresh_logo_nobg.png',
     title: '$THRESH',
     description: 'Thresh is an autonomous protocol designed to safely optimize idle on-chain treasuries for DAOs and users.',
     techStack: [
+      { name: 'Monad', logo: 'https://cdn.simpleicons.org/monad/000000' },
       { name: 'Ethereum', logo: 'https://cdn.simpleicons.org/ethereum/000000' },
       { name: 'Solidity', logo: 'https://cdn.simpleicons.org/solidity/ffffff' },
       { name: 'Python', logo: 'https://cdn.simpleicons.org/python/ffffff' },
     ],
+    liveUrl: 'https://threshh.vercel.app',
     
   },
   {
