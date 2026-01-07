@@ -50,7 +50,8 @@ const featuredProjectsData = [
     description: 'Trigslink is a decentralized MCP network enabling AI agents to access onchain context without central control—no APIs, no lock-ins. Powered by $AVAX & Chainlink, it’s the onchain discovery and access layer for AI context.',
     tags: ['AI', 'MCP', 'ETHEREUM', 'SOLIDITY', 'PYTHON', 'CHAINLINK'],
     repoUrl: 'https://github.com/trigslink/backend',
-    liveUrl: 'https://www.trigs.link'
+    liveUrl: 'https://www.trigs.link',
+    
   },
   {
     logoUrl: '/assets/fingen.png',
@@ -69,7 +70,51 @@ const featuredProjectsData = [
     tags: ['LANGCHAIN', 'PYTHON', 'FASTAPI', 'NODEJS', 'EXTENSION', "CHROME", "LLM", "GEMINI", "OPENAI"],
     repoUrl: 'https://github.com/MindMentors-AI/senova_mock',
     liveUrl: 'https://senova.in', 
-    youtubeUrl: null,}
+    youtubeUrl: null,
+  },
+  {
+    logoUrl: '/assets/chloris.png',
+    title: 'Chloris',
+    updated: 'MVP released',
+    description: 'Decentralized Eco-DeFi yield aggregator built on Solana that enables real-time carbon offsetting per transaction. Chloris funds carbon credit purchases directly from generated yield, allowing users to offset environmental impact with zero effect on principal or net APY.',
+    tags: [
+      'DEFI',
+      'SOLANA',
+      'ECO-DEFI',
+      'YIELD AGGREGATOR',
+      'CARBON OFFSETS',
+      'WEB3',
+      'SMART CONTRACTS',
+      'SUSTAINABILITY'
+    ],
+    repoUrl: 'https://github.com/orgs/Chloris-sol',
+    liveUrl: 'https://chloris-sol.vercel.app',
+    youtubeUrl: 'https://youtu.be/WCqFqcSe4wA?si=IWP0wLSYyC7waO_d',
+  },
+  {
+    logoUrl: '/assets/scrollana.png',
+    title: 'Scrollana',
+    updated: 'MVP released',
+    description: 'TikTok-style scroll-to-play gaming platform built on Solana, where users earn on-chain rewards through short-form interactive games. Scrollana combines casual gameplay, NFT collectibles, and real-time blockchain rewards to power a fast, creator-driven GameFi ecosystem.',
+    tags: [
+      'SOLANA',
+      'RUST',
+      'TYPESCRIPT',
+      'WEB3 GAMING',
+      'SCROLL-TO-EARN',
+      'NFTS',
+      'ON-CHAIN REWARDS',
+      'GAMEFI',
+      'SMART CONTRACTS',
+      'CREATORS',
+      'SHORT-FORM'
+    ],
+    repoUrl: null,
+    liveUrl: 'https://scrolana.vercel.app/',
+    youtubeUrl: 'https://youtube.com/shorts/vq3KGuCrTfk?si=-9d10sEZrZ9WzCjv',
+  }
+  
+  
 ];
 
 
