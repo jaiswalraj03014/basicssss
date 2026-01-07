@@ -92,8 +92,8 @@ const featuredProjectsData = [
     youtubeUrl: 'https://youtu.be/WCqFqcSe4wA?si=IWP0wLSYyC7waO_d',
   },
   {
-    logoUrl: '/assets/scrollana.png',
-    title: 'Scrollana',
+    logoUrl: '/assets/scrolana.png',
+    title: 'Scrolana',
     updated: 'MVP released',
     description: 'TikTok-style scroll-to-play gaming platform built on Solana, where users earn on-chain rewards through short-form interactive games. Scrollana combines casual gameplay, NFT collectibles, and real-time blockchain rewards to power a fast, creator-driven GameFi ecosystem.',
     tags: [
