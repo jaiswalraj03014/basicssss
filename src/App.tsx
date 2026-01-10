@@ -10,7 +10,8 @@ import {
   Mail, 
   MessageCircle, 
   Wallet, 
-  Youtube
+  Youtube,
+  Send
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import emailjs from '@emailjs/browser';
@@ -1093,6 +1094,7 @@ const handleContactSubmit = async (e: React.FormEvent) => {
               </div>
               <div className="flex gap-3">
                 {[
+                  { icon: <Send className="w-5 h-5" />, href: 'https://t.me/jaiswalraj03014' },
                   { icon: <img src = 'assets/x_logo.png' alt="X logo" className="w-5 h-5" />, href: 'https://x.com/Aakash_jais03' },
                   { icon: <Github className="w-5 h-5" />, href: 'https://github.com/jaiswalraj03014' },
                   { icon: <Linkedin className="w-5 h-5" />, href: 'https://www.linkedin.com/in/aakash-jaiswal-773bb9244' }, 
