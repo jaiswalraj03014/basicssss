@@ -667,7 +667,7 @@ const ProfessionalPortfolio = () => {
     { text: "Heyy! I'm Aakash, creating decentralized Agentic fw and smart solutions that power the next generation of Web3 applications. Check out my work!", isBot: true },
 ];
   const wallets = {
-    ETH: '0xB1760acA3F02Ee240a45f70F4Bb84263F9Fb3f8e',
+    ETH: '0xAA0bCC39DA540e8E757a240A808c0B1Cb7160805',
     SOL: '3HP25n9DRhoQYf86kh6NE2hj8dxJ2Dh8s7gz4ETje2tF',
     BTC: 'bc1qvsuseyq37c49qlr9fklc5jfltueev7rz9wf90k',
   };
