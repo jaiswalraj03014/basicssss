@@ -977,7 +977,7 @@ const handleContactSubmit = async (e: React.FormEvent) => {
             <div className="flex items-center gap-2">
               <input type="text" readOnly value={address} className="w-full truncate px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:outline-none text-sm" />
               <button onClick={() => handleCopyAddress(address, type)} className="p-3 rounded-xl bg-white/10 hover:bg-white/20 transition-colors">
-                {copiedAddress === type ? '✅' : <Copy className="w-4 h-4" />}
+                {copiedAddress === type ? '✔' : <Copy className="w-4 h-4" />}
               </button>
             </div>
           </div>
